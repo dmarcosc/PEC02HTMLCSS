@@ -1,0 +1,48 @@
+.nav{
+    width: 100%;
+    z-index: 99;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    background-color: $secondary-color;
+    color: $highlight-color;
+    justify-content: flex-end;
+    align-items: center;
+      &__container{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+      }
+      :first-child{
+        margin-right: auto;
+      }
+  }
+
+  .nav-link{
+    text-decoration: none;
+    &:visited,&:link {
+        text-decoration: inherit;
+        color: inherit;
+        cursor: pointer;
+    }
+    &:hover,&:active{
+      color: $primary-color;
+    }
+  }
+  .home-logo{
+    height: 65px;
+    &:active{
+      transform: scale(1.2);
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .nav {
+      font-size: 12px;
+      height: 60px;
+    }
+    .home-logo{
+      height: 35px;
+    }
+  }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>  
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Band Biography</title>
+  </head>
+  <body>
+    <include src="./views/header.html"></include> 
+    <section class="bio" href="#bio">
+        <picture>
+            <source media="(min-width: 550px)" srcset="assets/images/nirvana.jpg">
+            <source media="(min-width: 465px)" srcset="assets/images/nirvana.jpg">
+            <img class="band__img" src="assets/images/nirvana.jpg" alt="Grunge is not dead">
+        </picture>
+        <div class="bio__container">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</p>
+            <hr>
+            <ol class="bio__list"> 
+                <li class="bio__list-title">First</li> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</p>
+                <li class="bio__list-title">Second</li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</p>
+                <li class="bio__list-title">Third</li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</p>
+                <li class="bio__list-title">Fourth</li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</p>
+                <li class="bio__list-title">Fifth</li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</p>
+            </ol>
+            <hr>
+            <div class="flex py-3">
+                <blockquote class="blockquote text-center">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</p>
+                </blockquote>
+                <p class="blockquote-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</p>
+            </div>
+     </div>
+     <picture>
+        <source media="(max-width: 650px)" srcset="assets/images/nirv420.jpg" width="480" height="480">
+        <source media="(min-width: 651px)" srcset="assets/images/nirv1920.jpg" width="1920" height="1024">
+        <img class="band__img" src="assets/images/nirv1920.jpg" alt="Grupo completo" width="1920" height="1024">
+    </picture>
+    <div class="contenedor-sm pt-4">
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus vestibulum nisl non scelerisque congue. Proin imperdiet fermentum tortor, tristique mattis nunc lacinia nec. Sed volutpat, elit non iaculis auctor, enim arcu cursus justo, sed eleifend ante sem nec purus.</p>
+    </div>
+    </section>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

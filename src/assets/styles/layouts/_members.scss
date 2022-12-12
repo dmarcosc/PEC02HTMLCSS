@@ -1,0 +1,31 @@
+.members{
+    padding: 6em 0em;
+}
+h1{
+    text-align: center;
+    margin: 1em;
+}
+.members__grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+}
+.members__grid-card{
+    background-color: $primary-color;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    max-width: 500px;
+}
+h1,h3{
+    color: $highlight-color;
+}
+.member__image{
+    object-fit: cover;
+    object-position: top;
+    height: 400px;
+}

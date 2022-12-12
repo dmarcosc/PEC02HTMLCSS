@@ -1,0 +1,17 @@
+.bio{
+    padding: 5em 0em;
+}
+.band__img{
+    width: 100%;
+    height: auto;
+}
+.bio__container{
+    margin: 1em auto;
+    width: 80%;
+}
+.bio__list{
+    list-style-type: upper-roman;
+}
+.bio__list-title{
+    color: $highlight-color;
+}
