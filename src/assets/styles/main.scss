@@ -14,10 +14,11 @@
  * see: https://v2.parceljs.org/features/module-resolution/
  * see commented examples below
  */
-
+/* stylelint-disable */
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
 @import "bootstrap/scss/bootstrap.scss";
+/* stylelint-enable */
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page

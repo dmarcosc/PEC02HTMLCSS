@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 
 <html>    
-  <head> 
+  <head>   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/79a25669cc.js" crossorigin="anonymous"></script>
     <title>Smells like Cobain</title>
   </head>
   <body>
     <include src="./views/header.html"></include>
     <section class="home" href="#home">
       <img class="band" src="assets/images/nirvana-wp.jpg" alt="band-photo">
-      <h1>Smells Like <span>Cobain</span></h1>
+      <div class="home__grid">
+        <h1 class="home__title">Smells</h1>
+        <img class="grid__img" src="assets/images/smells.jpg" alt="band-photo">
+        <img class="grid__img" src="assets/images/like.jpg" alt="band-photo">
+        <h1 class="home__title-highlight">Like</h1>
+        <h1 class="home__title">Cobain</h1>
+        <img class="grid__img" src="assets/images/cobain.jpg" alt="band-photo">
+      </div>
       <p>Nirvana tribute band named after one of their most famous songs <i>"Smells like teen spirit"</i>.</p>
     </section>
     <include src="./views/footer.html"></include>

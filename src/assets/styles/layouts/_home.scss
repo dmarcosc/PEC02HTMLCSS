@@ -22,11 +22,29 @@ body {
   align-items: center;
   text-align: center;
 }
+.home__grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.grid__img{
+  object-fit: cover;
+  min-width: 100px;
+  min-height: 200px;
+  max-height: 250px;
+  max-width: 350px;
+}
 
-h1,h2,h3{
+.home__title {
   color: $primary-color;
-  span{
+  text-align: initial;
+  align-self: center;
+  &-highlight{
     color: $highlight-color;
+    text-align: initial;
+    align-self: center;
   }
 }
 h3{
@@ -45,15 +63,16 @@ h3{
 }
 .band{
   object-fit: cover;
-  max-height: 450px;
-  max-width: 600px;
+  max-height: 550px;
+  min-width: 250px;
+  max-width: 700px;
   margin-top: 150px;
 }
 
 @media screen and (max-width: 600px) {
 
   .band {
-    height:240px;
+    height:220px;
   }
 
 }
